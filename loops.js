@@ -7,4 +7,5 @@ function forLoop(array) {
     }
     array[i] = value
   }
+  return array
 }
