@@ -18,3 +18,9 @@ function whileLoop(number) {
   }
   return "done"
 }
+
+function doWhileLoop(num) {
+  do {
+    console.log("I run once regardless.")
+  } while (num > 0 && num < 10);
+}
